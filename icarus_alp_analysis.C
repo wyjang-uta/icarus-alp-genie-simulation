@@ -11,7 +11,7 @@ bool IsSinglePiZero(const EventRecord* eventRecord);
 bool IsSinglePiPlus(const EventRecord* eventRecord);
 bool IsSinglePiMinus(const EventRecord* eventRecord);
 
-void analysis_v3(const char* mode="FHC", const char* beam="nue", const ULong64_t nevent=1e+6)
+void icarus_alp_analysis(const char* mode="FHC", const char* beam="nue", const ULong64_t nevent=1e+6)
 {
   TString infile_name;
   TString infile_prefix("gnout.ICARUS_");
