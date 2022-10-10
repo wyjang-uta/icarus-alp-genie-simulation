@@ -1,1 +1,1 @@
-# icarus-alp-genie-imulation
+# icarus-alp-genie-simulation
